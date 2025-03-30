@@ -24,8 +24,8 @@ Aqui está a lista das tecnologias utilizadas no seu projeto, atualizada conform
 ## Instalação
 1. Clone o repositório:
 ```bash
-git clone <repositorio>
-cd <diretorio-do-projeto>
+git clone [<repositorio>](https://github.com/EduAugustoM/leitor-de-notas-fiscais.git)
+cd leitor-de-notas-fiscais
 ```
 
 2. Crie e ative um ambiente virtual:
