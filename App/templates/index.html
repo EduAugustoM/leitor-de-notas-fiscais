@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leitor de Notas Fiscais</title>
+  <link rel="stylesheet" type="text/css" href="static/styles.css">
+  <!-- Referência ao arquivo de script externo -->
+  <script src="static/scripts.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span>Leitor de Notas Fiscais</span>
+    </div>
+    <div class="upload">
+      <!-- Input para selecionar imagem(s) -->
+      <input type="file" id="fileInput" name="file" accept="image/*" multiple>
+      <button class="btn" onclick="process_invoice()">Enviar Imagem</button>
+    </div>
+    <!-- Área para exibir o JSON retornado -->
+    <pre id="output"></pre>
+  </div>
+</body>
+</html>
